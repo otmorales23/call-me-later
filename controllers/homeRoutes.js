@@ -27,7 +27,7 @@ router.get('/', async (req, res) => {
   }
 });
 
-router.get('/profile/:id', async (req, res) => {
+router.get('/contact/:id', async (req, res) => {
   try {
     const contactData = await Contact.findByPk(req.params.id, {
       include: [

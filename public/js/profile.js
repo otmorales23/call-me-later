@@ -6,7 +6,7 @@ const newFormHandler = async (event) => {
   const description = document.querySelector('#contact-notes').value.trim();
 
   if (name && phone && description) {
-    const response = await fetch(`/api/contactRoutes`, {
+    const response = await fetch(`/api/contacts`, {
       method: 'POST',
       body: JSON.stringify({ name, phone, description }),
       headers: {
@@ -26,7 +26,7 @@ const delButtonHandler = async (event) => {
   if (event.target.hasAttribute('data-id')) {
     const id = event.target.getAttribute('data-id');
 
-    const response = await fetch(`/api/contactRoutes/${id}`, {
+    const response = await fetch(`/api/contacts/${id}`, {
       method: 'DELETE',
     });
 
