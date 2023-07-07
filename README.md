@@ -1,7 +1,7 @@
 # call-me-later
 
 
-Descripton:
+Description:
 App that holds contact name, email, phone number and notes behind a login for security
 
 
