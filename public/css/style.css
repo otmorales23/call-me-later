@@ -12,11 +12,26 @@ header {
   font-size: 100%;
 }
 
+#cml {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#image1 {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
 .no-button:hover {
   color: #065b83;
   text-decoration: underline;
 }
 
+#login-button #logout #signUp #login2 {
+  font-family: 'Courier New', Courier, monospace;
+
+}
 body {
   background-color: #dbf3ff;
 }

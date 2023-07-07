@@ -12,7 +12,7 @@
 <body>
   <div class="flex-column justify-space-around">
     <header class="display-flex justify-space-between align-center p-2">
-      <h1>
+      <h1 id="cml">
         Call Me Later!
         <!--<a href="/">Call Me Later!</a> -->
       </h1>
@@ -20,12 +20,15 @@
         <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
         <a href="/profile">profile</a> |
-        <button class="no-button" id="logout">logout</button>
+        <button class="no-button" id="logout">LOGOUT</button>
         {{else}}
-        <a href="/login">login</a>
+        <a href="/login" id="login-button">LOGIN</a>
         {{/if}}
       </nav>
     </header>
+    <main class ="image">
+      <img src= "C:\Users\olive\bootcamp\call-me-later\public\images\phone_book.jpg" id="image1">
+    </main>
     <main class="container container-fluid mt-5">
       <!-- Render the sub layout -->
       {{{ body }}}
