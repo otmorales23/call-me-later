@@ -29,5 +29,8 @@ header {
 }
 
 body {
-  background-color: #dbf3ff;
+  background-image: url("/public/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
