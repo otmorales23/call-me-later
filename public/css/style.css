@@ -13,7 +13,7 @@ header {
 }
 
 #cml {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Montserrat';
 }
 
 #image1 {
@@ -28,10 +28,6 @@ header {
   text-decoration: underline;
 }
 
-#login-button #logout #signUp #login2 {
-  font-family: 'Courier New', Courier, monospace;
-
-}
 body {
   background-color: #dbf3ff;
 }
